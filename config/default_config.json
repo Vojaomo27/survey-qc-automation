@@ -1,0 +1,30 @@
+{
+  "settings": {
+    "appearance_mode": "System",
+    "color_theme": "dark-blue",
+    "qc_officer": "",
+    "project_name": "",
+    "output_folder": "",
+    "auto_open_report": true,
+    "llm_provider": "google_ai_studio",
+    "llm_endpoint": "https://generativelanguage.googleapis.com/v1beta/openai",
+    "llm_model": "gemini-2.5-flash",
+    "llm_api_key_env": "DEEPSEEK_API_KEY"
+  },
+  "thresholds": {
+    "min_interview_duration": 35,
+    "max_interview_duration": 120,
+    "earliest_interview_time": "08:00",
+    "latest_interview_time": "18:00",
+    "min_gps_accuracy": 10,
+    "max_household_size": 25,
+    "min_respondent_age": 18,
+    "max_respondent_age": 99,
+    "speeding_duration": 20,
+    "min_valid_latitude": -90,
+    "max_valid_latitude": 90,
+    "min_valid_longitude": -180,
+    "max_valid_longitude": 180,
+    "outlier_std_devs": 3
+  }
+}
