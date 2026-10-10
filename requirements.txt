@@ -1,0 +1,18 @@
+# Survey QC Automation Tool — runtime dependencies
+# Target: Python 3.12+
+
+# GUI
+customtkinter>=5.2.2
+
+# Data handling
+pandas>=2.2.0
+openpyxl>=3.1.2
+xlrd>=2.0.1
+pyreadstat>=1.2.7
+pypdf>=5.0.0
+
+# Optional ORM helper (used where it simplifies DB work)
+SQLAlchemy>=2.0.0
+
+# Packaging (build-time only)
+pyinstaller>=6.3.0

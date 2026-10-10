@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Runtime output
+logs/*.log
+output/*.xlsx
+input/*.xlsx
+config/user_config.json
+config/llm_api_key.txt
+config/profiles/*.json
+
+# Keep placeholder files so folders exist in the repo
+!**/.gitkeep
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
